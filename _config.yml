@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin: "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale: "en-US"
-title: "Site Title"
+title: "구티의 블로그"
 title_separator: "-"
 subtitle: # site tagline that appears below site title in masthead
 name: "구티"
@@ -105,8 +105,8 @@ analytics:
 author:
   name: "구티"
   avatar: # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio: "I am an **amazing** person."
-  location: "Somewhere"
+  bio: "Frontend Developer"
+  location: "대한민국"
   email:
   links:
     - label: "Email"
