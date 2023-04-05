@@ -9,6 +9,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "jekyll-archives"
   gem "jekyll-sitemap"
+  gem "jekyll-read-time"
 end
 
 group :test do
@@ -24,5 +25,3 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-gem "jekyll-read-time", "~> 0.12.0"
-gem "faraday-retry"
