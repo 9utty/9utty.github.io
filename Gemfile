@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-archives"
   gem "jekyll-sitemap"
   gem "jekyll-read-time"
+  gem "faraday-retry"
 end
 
 group :test do
