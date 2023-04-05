@@ -1,7 +1,7 @@
 ---
 title: "Frontend"
 layout: categories
-permalink: /frontend/
+permalink: /Frontend/
 author_profile: true
 toc: true
 toc_sticky: true
