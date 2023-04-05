@@ -194,6 +194,16 @@ permalink: /:categories/:title/
 paginate: 7 # amount of posts to show
 paginate_path: /page:num/
 timezone: Asia/Seoul
+collections:
+  frontend:
+    output: true
+    permalink: /frontend/:title/
+    title: Frontend
+    # 다른 설정들...
+  diary:
+    output: true
+    permalink: /diary/:title/
+    title: Diary
 
 # Plugins (previously gems:)
 plugins:
