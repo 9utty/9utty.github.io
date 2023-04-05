@@ -1,7 +1,7 @@
 ---
 title: "Diary"
 layout: categories
-permalink: /Diary/
+permalink: /diary/
 author_profile: true
 toc: true
 toc_sticky: true
