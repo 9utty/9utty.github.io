@@ -2,7 +2,6 @@
 title: About
 icon: fas fa-info
 order: 4
-
 # The About page
 # v2.0
 # https://github.com/cotes2020/jekyll-theme-chirpy
@@ -26,15 +25,15 @@ order: 4
 
 ## Awards and Certifications 🥇
 
-- 삼성전자 / 프로젝트 경진대회 최우수상 수상 (13팀(26명) 중 1위) / 2020.06 
+- 삼성전자 / 프로젝트 경진대회 최우수상 수상 (13팀(26명) 중 1위) / 2020.06
 - 삼성전자 / 공통 프로젝트 경진대회 우수상 수상 (11팀(62명) 중 2위) / 2020.09
-- ACTFL / OPIC (IH)  / 2020.02
+- ACTFL / OPIC (IH) / 2020.02
 
 ## Projects ✨
 
-- [긴급 전화 연결 1818](https://github.com/hoyeonkim795/IBM_hackathon_ssafy03 )
+- [긴급 전화 연결 1818](https://github.com/hoyeonkim795/IBM_hackathon_ssafy03)
 
-   2020.06.12 ~ 2020.06.13
+  2020.06.12 ~ 2020.06.13
 
 - [취향의 나눔](https://github.com/hoyeonkim795/share_movie_project)
 
