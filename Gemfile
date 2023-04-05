@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll", ">= 4.1.0", "< 5.0"
+gem "jekyll", ">= 3.0.0", "< 5.0"
 
 # plugins
 group :jekyll_plugins do
@@ -24,6 +24,4 @@ end
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-
-group :jekyll_plugins do
-  gem "jekyll-read-time"
+gem "jekyll-read-time"
