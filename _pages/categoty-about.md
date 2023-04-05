@@ -1,6 +1,6 @@
 ---
-permalink: /about/
 title: "About"
+permalink: /about/
 toc: true
 toc_sticky: true
 toc_lable: "MYSELF"
