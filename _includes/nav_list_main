@@ -143,6 +143,22 @@
                 {% endfor %}
             </ul>
 
+        <span class="nav__sub-title">Project</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Moim" %}
+                        <li><a href="/categories/Moim" class="">Team Moim ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "RN" %}
+                        <li><a href="/categories/RN" class="">RN ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
         <span class="nav__sub-title">Backend</span>
             <ul>
                 {% for category in site.categories %}
