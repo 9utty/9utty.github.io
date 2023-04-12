@@ -1,5 +1,5 @@
 ---
-title: "MAC주소, IP주소, Port번호가 식별하는 것"
+title: "PortNumber의 이해"
 
 categories:
   - Network
@@ -11,8 +11,6 @@ toc_sticky: true
 ---
 
 # Port Number의 이해
-
-생성일: 2022년 4월 16일 오전 12:48
 
 - Port Number
 
