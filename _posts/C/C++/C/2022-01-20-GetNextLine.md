@@ -24,7 +24,7 @@ toc_sticky: true
 
 ### OPEN_MAX 확인하는 법
 
-```C
+```c
 /* 터미널에서 확인방법 */
 getconf OPEN_MAX
 /* 클러스터 맥에서는 256 */
