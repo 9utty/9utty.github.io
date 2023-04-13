@@ -103,5 +103,28 @@ const b = parseInt(line[1]);
 console.log(`${a + b}\n${a - b}\n${a * b}\n${parseInt(a / b)}\n${a % b}`);
 ```
 
+  
 
+### 혼자 힘으로 풀어보기  
+
+- **문제 제목**: 곱셈
+- **문제 난이도**: 별 1개
+- **문제 유형**: 기초 문법
+- **추천 풀이 시간**: 15분
+- 곱셈 : https://www.acmicpc.net/problem/2588
+
+```javascript
+const fs = require('fs');
+const input = fs.readFileSync('/dev/stdin').toString().split('\n');
+
+const a = parseInt(input[0]);
+const b = input[1];
+
+console.log(`
+	${a * parseInt(input[1][2])}\n
+	${a * parseInt(input[1][1])}\n
+	${a * parseInt(input[1][0])}\n
+	${a * parseInt(input[1])}
+	`);
+```
 
