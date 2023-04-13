@@ -16,20 +16,21 @@ toc_sticky: true
 - **문제 난이도**: 별1
 - **문제 유형**: 기초 문법
 - **추천 풀이 시간**: 5분
-- Hello World: https://www.acmicpc.net/problem/2557
+- Hello World: http
+s://www.acmicpc.net/problem/2557
 
 ```javascript
 console.log("Hello World!");
 ```
 
-  
+
 
 ### 문제 풀이 핵심 아이디어
 
 - JavaScript를 이용해 문자열을 출력 할 수 있어야 한다
 - console.log() 함수를 이용해 원하는 변수 혹은 상수를 출력할 수 있다
 
-  
+
 
 ### 혼자 힘으로 풀어보기
 
@@ -52,7 +53,7 @@ console.log(a + b);
 
 
 
-  
+
 
 ### 문제 풀이 핵심 아이디어
 
@@ -61,7 +62,7 @@ console.log(a + b);
 - 이후에 덧셈을 수행한 결과를 출력한다
 - fs 모듈을 이용해 특정 파일에 문자열을 읽어 올 수 있다
 
-  
+
 
 ### 혼자 힘으로 풀어보기
 
@@ -82,9 +83,9 @@ const b = parseInt(line[1]);
 console.log(a * b);
 ```
 
-  
 
-### 혼자 힘으로 풀어보기  
+
+### 혼자 힘으로 풀어보기
 
 - **문제 제목**: 사칙연산
 - **문제 난이도**: 별 1개
@@ -103,9 +104,9 @@ const b = parseInt(line[1]);
 console.log(`${a + b}\n${a - b}\n${a * b}\n${parseInt(a / b)}\n${a % b}`);
 ```
 
-  
 
-### 혼자 힘으로 풀어보기  
+
+### 혼자 힘으로 풀어보기
 
 - **문제 제목**: 곱셈
 - **문제 난이도**: 별 1개
