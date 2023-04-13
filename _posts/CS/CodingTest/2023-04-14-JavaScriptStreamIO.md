@@ -17,7 +17,7 @@ toc_sticky: true
 - **문제 유형**: 기초 문법
 - **추천 풀이 시간**: 5분
 - Hello World: http
-s://www.acmicpc.net/problem/2557
+\s://www.acmicpc.net/problem/2557
 
 ```javascript
 console.log("Hello World!");
