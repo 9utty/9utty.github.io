@@ -41,6 +41,8 @@ if (num >= 90) {
 console.log(score[outputIndex]);
 ```
 
+​     
+
 ​    
 
 # 혼자 힘으로 풀어보기
