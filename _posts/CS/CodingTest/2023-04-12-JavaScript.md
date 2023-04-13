@@ -182,3 +182,15 @@ for (let i = 1; i <= 100; ++i) {
 console.log(summary);
 ```
 
+  
+
+### JavaScript문법 - while 반복문
+
+```javascript
+/*
+- while문은 조건문이 참일 때 실행되는 반복문이다
+- 블록 내부의 코드가 실행되기 전에 참 혹은 거짓을 판단한다
+*/
+while (조건문) {
+  // 코드가 실행되는 부분
+}
