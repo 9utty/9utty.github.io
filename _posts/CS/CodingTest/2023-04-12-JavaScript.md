@@ -261,3 +261,40 @@ let arr = [8, 1, 4, 5, 7];
 let arr = new Array(5).fill(0);
 ```
 
+  
+
+### JavaScript 문법 - 집합 자료형
+
+- 특정한 **원소의 등장 여부**를 파악할때 집합 자료형을 효과적으로 사용할 수 있다
+
+```javascript
+let mySet = new Set(); // 집합 개체 생성
+
+// 여러 개의 원소 삽입
+mySet.add(3);
+mySet.add(5);
+mySet.add(7);
+mySet.add(3);
+
+console.log(`원소의 개수: ${mySet.size}`);
+console.log(`원소 7을 포함하고 있는가? ${mySet.has(7)}`);
+
+// 원소 5제거
+mySet.delete(5);
+
+// 원소 하나씩 출력
+for (let item of mySet) console.log(item);
+```
+
+  
+
+### JavaScript 문법 - 소수점 아래 특정 자리에서 반올림
+
+- 실수를 출력할 때 소수점 아래 특정 자리에서 반올림 할 수 있다
+
+```javascript
+// 특정 실수에 대하여 toFixed()를 이용해 소수점 아래 둘째 자리까지 출력
+let x = 123.456;
+console.log(x.toFixed(2));
+```
+
