@@ -142,7 +142,21 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-
+        <span class="nav__sub-title">TypeScript</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "TypeScript" %}
+                        <li><a href="/categories/TypeScript" class="">TypeScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "RN" %}
+                        <li><a href="/categories/RN" class="">RN ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
         <span class="nav__sub-title">Project</span>
             <ul>
                 {% for category in site.categories %}
