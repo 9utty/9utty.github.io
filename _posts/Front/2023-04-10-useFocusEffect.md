@@ -10,6 +10,8 @@ toc: true
 toc_sticky: true
 ---
 
+​    
+
 # useFocusEffect???
 
 - UseFocusEffect는 React Native에서 존재하는 Hook이다.
@@ -31,6 +33,8 @@ useFocusEffect(
 - React Native에서는 이렇게 useFocusEffect는 네트워크를 통해 데이터를 가져와야할때 사용하는걸 권장한다고 한다.
 - 그 이유에대해서 많은 생각을 해보았는데... 내가 생각하기에 Focus가 일어났다는거는 새로운 Screen일 생성하는 이벤트가 생겼기 때문에 사전에 데이터를 셋팅하기위해 APIServer에 요청을 한 후 데이터를 가져와야하기 때문인 것 같다. 그리고 사실 useEffect하나만으로도 가능하다!
 
+​    
+
 # useFocusEffect가 실행되는 시점
 
 1. Render가 실행이 되기전?
@@ -39,6 +43,8 @@ useFocusEffect(
 - 정답은 2번이다. React에서 라이프 사이클을 보면 Hook은 Render가 실행이 된후 실행이 된다고 나와있다. 이 부분은 React Native도 동일하게 돌아간다고 볼 수 있다.
 
 그렇다면 나는 여기서 무슨 문제점을 겪었느냐....?
+
+​    
 
 # 뭐가 문제일까?
 

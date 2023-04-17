@@ -11,6 +11,8 @@ toc: true
 toc_sticky: true
 ---
 
+​    
+
 ## Props는?
 
 - React에서 제공하는 Hook으로서 Component안에서 상태를 관리할 수 있게 제공하는 Hook이다.
@@ -26,19 +28,25 @@ IsLoading이라는 state를 component안에서 관리함으로써 해당 Compone
 
 But... 만약 넘겨야하는게 10~20개 정도라면? 하위 Component 또 하위 Component 있고, 그 안에 또 하위Component 가 있다면?
 
+​    
+
 ## Props Drilling?
 
 많은 하위 Component 에게 props 로 전해주는 행위를 보고 Props Drilling이라는 행위라고 한다.
 
 무조건 나쁜 행위라고는 단정짖기 어렵지만, 나의 경우엔 PostScreen을 제작을 하면서 "유저"에게 받아야 하는 내용이 많았다.
 
-Title, Dscription, images, date, map(tradeName, Address, longitued, latitude,), OpenTalkLink 등 최상위 Component에서 이 많은 정보들을 가지고 있어야 햇다.
+Title, Dscription, images, date, map(tradeName, Address, longitued, latitude,), OpenTalkLink 등 최상위 Component에서 이 많은 정보들을 가지고 있어야 햇다.    
 
 물론 각각의 하위 Component에서 관리를 할 수 있지만, 우리 프로젝트에서는 Submit 버튼이 눌렀을때, APIServer에 데이터를 저장해달라고 POST요청을 해야했기에 다른 Component로 모든 State를 보내줘야하는 상황이였다.
 
 이렇게 되니... 코드도 더럽고, 너무 길어지고, 단점이 많았다.
 
 이 문제를 해결하기 위해 처음에 잘 몰랐기 때문에 쓸 엄두가 안났었던 Redux라는걸 정복해보자 하고 마음을 먹고 만 이틀을 Redux를 해딩해가면서 정복해가기 시작한다.
+
+
+
+​        
 
 ## Redux?
 
@@ -62,6 +70,8 @@ interface event {
 이런 타입들도 만들어줘야하고... reducer, action등을 만들어줘야하는데, 너무너무 어려웠다.....
 
 하지만 Redux에서 update가 되면서 나온 Slice라는걸 알게 됬다.
+
+​    
 
 ## Slice?
 
@@ -208,6 +218,8 @@ return (
 최종적으로 "PostHeader"
 
 곳에 Submit button이 존재하고, 여기서 "유저"가 Submit Button을 누르면 PostEventSlice에 저장되어 있는 정보를 APIServer에 POST요청을 하게 된다.
+
+​    
 
 ## 이렇게 Redux를 사용하면 뭐가 좋을까?
 

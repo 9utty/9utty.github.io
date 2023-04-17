@@ -10,9 +10,11 @@ toc: true
 toc_sticky: true
 ---
 
+​    
+
 ## JavaScript 핵심 문법
 
-
+​    
 
 ### 알고리즘 코딩 테스트 문제의 입출력 형식  
 
@@ -39,7 +41,9 @@ toc_sticky: true
 100 88 73 53 17
 ```
 
-  
+
+
+​    
 
 ### 코딩 테스트용 JavaScript 기본 출력
 
@@ -54,7 +58,9 @@ result = 35;
 console.log(`정답은 ${result}입니다.`);
 ```
 
-  
+
+
+​    
 
 ### 코딩 테스트용 JavaScript 기본 사칙 연산
 
@@ -73,7 +79,9 @@ console.log(a % b);
 
   
 
-### 코딩 테스트용 JavaScript 빠른 출력
+​     
+
+###  코딩 테스트용 JavaScript 빠른 출력
 
 - JavaScript로 코딩 테스트 문제를 풀 때, 출력 과정만으로 시간 초과를 받을 때가 있다
 - **출력 시간을 단축**하기 위해 다음과 같은 방법을 유용하게 사용할 수 있다
@@ -93,6 +101,8 @@ console.log(answer);
 
   
 
+​    
+
 ### 코딩 테스트용 JavaScript 기본 입력 - fs 모듈
 
 - 입력 데이터가 텍스트 파일 형태로 주어지는 경우, **파일 시스템 모듈**을 사용한다
@@ -110,6 +120,8 @@ console.log(input);
 ```
 
   
+
+​    
 
 ### 코딩 테스트용 JavaScript 기본 입력 - readline 모듈
 
@@ -133,6 +145,8 @@ rl.on('line', function(line) {
 ```
 
 
+
+​    
 
 ### JavaScript 문법 - 조건문
 
@@ -160,6 +174,8 @@ else
 
 
 
+​    
+
 ### JavaScript 문법 - for 반복문
 
 - **조건에 따라서** 특정한 코드를 반복하고자 할 때 사용할 수 있는 코드다
@@ -184,6 +200,8 @@ console.log(summary);
 
   
 
+​    
+
 ### JavaScript문법 - while 반복문
 
 ```javascript
@@ -197,6 +215,8 @@ while (조건문) {
 ```
 
   
+
+​    
 
 ### JavaScript 문법 - Number와 String 형태 변환
 
@@ -221,6 +241,8 @@ console.log(b); // "777"
 ```
 
   
+
+​    
 
 ### JavaScript 문법 - Array.prototype.reduce()
 
@@ -249,6 +271,8 @@ console.log(b); // "777"
 
   
 
+​    
+
 ### JavaScript 문법 - 배열 초기화 방법
 
 - 알고리즘 문제를 풀 때 자주 사용되는 배열 초기화 방식은 다음과 같다
@@ -262,6 +286,8 @@ let arr = new Array(5).fill(0);
 ```
 
   
+
+​    
 
 ### JavaScript 문법 - 집합 자료형
 
@@ -288,6 +314,8 @@ for (let item of mySet) console.log(item);
 
   
 
+​    
+
 ### JavaScript 문법 - 소수점 아래 특정 자리에서 반올림
 
 - 실수를 출력할 때 소수점 아래 특정 자리에서 반올림 할 수 있다
@@ -298,3 +326,12 @@ let x = 123.456;
 console.log(x.toFixed(2));
 ```
 
+​    
+
+<br>
+
+​    개인 공부 기록용 블로그입니다.
+
+​    잘못된 내용이 있다면 꼭 알려주세요!
+
+[맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}

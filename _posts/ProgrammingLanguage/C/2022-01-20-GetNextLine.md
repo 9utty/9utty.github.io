@@ -10,9 +10,13 @@ toc: true
 toc_sticky: true
 ---
 
+​    
+
 # C언어로 문자열파싱하는 라이브러리만들기
 
 문자열을 받아 "\n" 문자열이 나오기전까지의 한 줄을 파싱하는 라이브러리를 만들어보자.
+
+​    
 
 ### 표준스트림
 
@@ -22,6 +26,8 @@ toc_sticky: true
 
 2 : 표준 에러
 
+​    
+
 ### OPEN_MAX 확인하는 법
 
 ```c
@@ -30,9 +36,13 @@ getconf OPEN_MAX
 /* 클러스터 맥에서는 256 */
 ```
 
+###     
+
 ### fd (파일디스크립터)
 
 - open함수에서 사용을 하게 되는데 open에서 fd는 4번부터 번호를 가지게 되는데, 번호에 지정된 것은 읽을 파일 번호를 뜻하게 된다.
+
+###     
 
 ### read
 
@@ -43,7 +53,11 @@ sszie_t read(int fd, void\* buff, size_t bytes)
   - 반환값은 읽어온 byte 수를 반환하게 되는데, 그 값이 만약에 -1 이라면 오류가 나오는 경우이다.
   - 0이 반환된다면 end of file을 뜻하게 된다.
 
+#     
+
 # get_next_line.c
+
+##     
 
 ## get_next_line(int fd)
 
@@ -87,7 +101,11 @@ sszie_t read(int fd, void\* buff, size_t bytes)
 - 반환값
   - 반환값은 우리가 저장한 buff가 가지고 있는 주소를 넘기게 된다.
 
+##     
+
 ## bonus
+
+###     
 
 ### 기본 서브젝트와 보너스는 많이 다르지 않다.
 
