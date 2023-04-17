@@ -1,7 +1,7 @@
 ---
 title: "Jekyll/Github 블로그 만들기"
 layout: archive
-permalink: categories/blog
+permalink: categories/Blog
 author_profile: true
 sidebar_main: true
 ---

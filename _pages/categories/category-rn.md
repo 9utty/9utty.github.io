@@ -1,7 +1,7 @@
 ---
 title: "React Native"
 layout: archive
-permalink: categories/reactnative
+permalink: categories/ReactNative
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ---
 
-{% assign posts = site.categories.RN %}
+{% assign posts = site.categories.ReactNative %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}

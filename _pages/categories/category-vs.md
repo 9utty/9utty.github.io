@@ -1,7 +1,7 @@
 ---
 title: "VS Code, Visual Studio"
 layout: archive
-permalink: /categories/vs
+permalink: /categories/VS
 author_profile: true
 sidebar_main: true
 ---

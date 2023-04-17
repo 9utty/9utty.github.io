@@ -1,7 +1,7 @@
 ---
 title: "프론트엔드 공부"
 layout: archive
-permalink: categories/frontend
+permalink: categories/Frontend
 author_profile: true
 sidebar_main: true
 ---
