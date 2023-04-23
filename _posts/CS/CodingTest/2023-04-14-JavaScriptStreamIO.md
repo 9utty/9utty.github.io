@@ -2,7 +2,7 @@
 title: "JavaScript 입출력 문제 풀이"
 
 categories:
-  - Coding Test Lesson
+  - CodingTest
 tags:
   - [JavaScript, Coding Test, stdin, stdout]
 
