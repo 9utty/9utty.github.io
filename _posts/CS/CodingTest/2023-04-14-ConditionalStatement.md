@@ -2,7 +2,7 @@
 title: "JavaScript 조건문 문제 풀이"
 
 categories:
-  - Coding Test Lesson
+  - CodingTest
 tags:
   - [JavaScript, Coding Test, stdin, stdout]
 
