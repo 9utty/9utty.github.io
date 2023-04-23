@@ -2,7 +2,7 @@
 title: "문제 풀이를 위한 JavaScript 핵심 문법 알아보기"
 
 categories:
-  - Coding Test Lesson
+  - CodingTest
 tags:
   - [JavaScript, Coding Test]
 
