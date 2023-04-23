@@ -2,7 +2,7 @@
 title: "코딩테스트 알아보기!"
 
 categories:
-  - Coding Test Lesson
+  - CodingTest
 tags:
   - [JavaScript, Coding Test]
 
