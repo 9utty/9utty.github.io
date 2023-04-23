@@ -1,7 +1,7 @@
 ---
 title: "알고리즘 구현 (with Javascript)"
 layout: archive
-permalink: categories/Algorithm
+permalink: categories/CodingTest
 author_profile: true
 sidebar_main: true
 ---
@@ -10,5 +10,5 @@ sidebar_main: true
 
 ---
 
-{% assign posts = site.categories.Algorithm %}
+{% assign posts = site.categories.CodingTest %}
 {% for post in posts %} {% include archive-single2.html type=page.entries_layout %} {% endfor %}
