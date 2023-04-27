@@ -33,3 +33,10 @@ toc_sticky: true
   - 그래서 생긴가 트랜스파일러이다.
   - TypeScript도 트랜스파일러의 한 종류다
   - JavaScript에서 대표적으로 Babel이 있다
+
+<br>
+
+    개인 공부 기록용 블로그입니다.
+    잘못된 내용이 있다면 꼭 알려주세요!
+
+[맨 위로 이동하기](#){: .btn .btn--primary }{: .align-right}
